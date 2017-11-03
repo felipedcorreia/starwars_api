@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="correia.felipe.cortana_app.Activity_Vehicle">
+
+        <TextView
+            android:id="@+id/tv_name_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Name: " />
+        <TextView
+            android:id="@+id/tv_model_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_vehicle"
+            android:text="Model: " />
+        <TextView
+            android:id="@+id/tv_manufacturer_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_model_vehicle"
+            android:text="Manufacturer: " />
+        <TextView
+            android:id="@+id/tv_cost_in_credits_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_manufacturer_vehicle"
+            android:text="Cost in credits: " />
+        <TextView
+            android:id="@+id/tv_length_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cost_in_credits_vehicle"
+            android:text="Length: " />
+        <TextView
+            android:id="@+id/tv_max_atmosphering_speed_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_length_vehicle"
+            android:text="Max Atmosphering Speed: " />
+        <TextView
+            android:id="@+id/tv_crew_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_max_atmosphering_speed_vehicle"
+            android:text="Crew: " />
+        <TextView
+            android:id="@+id/tv_passengers_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_crew_vehicle"
+            android:text="Passengers: " />
+        <TextView
+            android:id="@+id/tv_cargo_capacity_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_passengers_vehicle"
+            android:text="Cargo Capacity: " />
+        <TextView
+            android:id="@+id/tv_consumables_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cargo_capacity_vehicle"
+            android:text="Consumables: " />
+        <TextView
+            android:id="@+id/tv_vehicle_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_consumables_vehicle"
+            android:text="Vehicle Class: " />
+
+        <TextView
+            android:id="@+id/tv_pilots_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_vehicle_class"
+            android:text="Pilots: " />
+        <ListView
+            android:id="@+id/lv_pilots_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pilots_vehicle">
+        </ListView>
+        <TextView
+            android:id="@+id/tv_films_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_pilots_vehicle"
+            android:text="Films: " />
+        <ListView
+            android:id="@+id/lv_films_vehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_films_vehicle">
+        </ListView>
+
+    </RelativeLayout>
+    </ScrollView>
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="correia.felipe.cortana_app.Activity_People">
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:text="Height: " />
+
+    <TextView
+        android:id="@+id/tv_mass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_height"
+        android:text="Mass: " />
+
+    <TextView
+        android:id="@+id/tv_hair_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_mass"
+        android:text="Hair Color: " />
+
+    <TextView
+        android:id="@+id/tv_skin_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_hair_color"
+        android:text="Skin Color: " />
+
+    <TextView
+        android:id="@+id/tv_eye_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_skin_color"
+        android:text="Eye Color: " />
+
+    <TextView
+        android:id="@+id/tv_birth_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_eye_color"
+        android:text="Birth Year: " />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_birth_year"
+        android:text="Gender: " />
+
+    <TextView
+        android:id="@+id/tv_homeworld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_gender"
+        android:text="Homeworld: " />
+
+    <TextView
+        android:id="@+id/tv_films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_homeworld"
+        android:text="Films: " />
+    <ListView
+        android:id="@+id/lv_films"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_films">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_species"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_films"
+        android:text="Species: " />
+
+    <ListView
+        android:id="@+id/lv_species"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_species">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_vehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_species"
+        android:text="Vehicles: " />
+
+    <ListView
+        android:id="@+id/lv_vehicles"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_vehicles">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_starships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_vehicles"
+        android:text="Vehicles: " />
+
+    <ListView
+        android:id="@+id/lv_starships"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_starships">
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lv_starships"
+        android:text="Created" />
+
+    <TextView
+        android:id="@+id/tv_edited"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_created"
+        android:text="Edited: " />
+
+
+</RelativeLayout>
+</ScrollView>

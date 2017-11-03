@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height: " />
+
+    <TextView
+        android:id="@+id/tv_mass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mass: " />
+
+    <TextView
+        android:id="@+id/tv_hair_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hair Color: " />
+
+    <TextView
+        android:id="@+id/tv_skin_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skin Color: " />
+
+    <TextView
+        android:id="@+id/tv_eye_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eye Color: " />
+
+    <TextView
+        android:id="@+id/tv_birth_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birth Year: " />
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender: " />
+
+    <TextView
+        android:id="@+id/tv_created"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created: " />
+
+    <TextView
+        android:id="@+id/tv_edited"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edited" />
+
+</LinearLayout>

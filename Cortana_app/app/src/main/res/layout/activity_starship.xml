@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    tools:context="correia.felipe.cortana_app.Activity_Starship">
+
+        <TextView
+            android:id="@+id/tv_name_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Name: " />
+        <TextView
+            android:id="@+id/tv_model_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name_starship"
+            android:text="Model: " />
+        <TextView
+            android:id="@+id/tv_manufacturer_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_model_starship"
+            android:text="Manufacturer: " />
+        <TextView
+            android:id="@+id/tv_cost_in_credits_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_manufacturer_starship"
+            android:text="Cost in credits: " />
+        <TextView
+            android:id="@+id/tv_length_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cost_in_credits_starship"
+            android:text="Length: " />
+        <TextView
+            android:id="@+id/tv_max_atmosphering_speed_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_length_starship"
+            android:text="Max Atmosphering Speed: " />
+        <TextView
+            android:id="@+id/tv_crew_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_max_atmosphering_speed_starship"
+            android:text="Crew: " />
+        <TextView
+            android:id="@+id/tv_passengers_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_crew_starship"
+            android:text="Passengers: " />
+        <TextView
+            android:id="@+id/tv_cargo_capacity_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_passengers_starship"
+            android:text="Cargo Capacity: " />
+        <TextView
+            android:id="@+id/tv_consumables_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cargo_capacity_starship"
+            android:text="Consumables: " />
+        <TextView
+            android:id="@+id/tv_hyperdrive_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_consumables_starship"
+            android:text="Hyperdrive Rating: " />
+        <TextView
+            android:id="@+id/tv_mglt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_hyperdrive_rating"
+            android:text="MGLT: " />
+        <TextView
+            android:id="@+id/tv_starship_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_mglt"
+            android:text="Starship Class: " />
+        <TextView
+            android:id="@+id/tv_pilots_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_starship_class"
+            android:text="Pilots: " />
+        <ListView
+            android:id="@+id/lv_pilots_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_pilots_starship">
+        </ListView>
+        <TextView
+            android:id="@+id/tv_films_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_pilots_starship"
+            android:text="Films: " />
+        <ListView
+            android:id="@+id/lv_films_starship"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_films_starship">
+        </ListView>
+
+    </RelativeLayout>
+</ScrollView>
