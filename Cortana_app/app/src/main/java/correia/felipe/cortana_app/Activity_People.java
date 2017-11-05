@@ -1,49 +1,25 @@
 package correia.felipe.cortana_app;
 
-import android.annotation.SuppressLint;
-import android.app.ProgressDialog;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.SimpleAdapter;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONStringer;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
-import correia.felipe.cortana_app.Connection.APIClient;
-import correia.felipe.cortana_app.Connection.GetMethodDemo;
 import correia.felipe.cortana_app.Connection.Get_Name_API;
 import correia.felipe.cortana_app.Connection.Get_Title_API;
 import correia.felipe.cortana_app.Connection.HttpConnection;
-import correia.felipe.cortana_app.Connection.LoadJSONTask;
 import correia.felipe.cortana_app.models.People;
-import correia.felipe.cortana_app.models.Response;
 
 /**
  * Created by Felipe on 25/10/2017.
